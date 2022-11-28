@@ -13,7 +13,7 @@ app.use(json())
 
 
 if(!jwtKey){
-    console.error('FATAL ERROR: JWTKEY UNDEFINED');
+    console.error('FATAL ERROR: JWT-KEY UNDEFINED');
     process.exit(1)
 }
 
